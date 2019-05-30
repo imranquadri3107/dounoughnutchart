@@ -1,0 +1,25 @@
+.Charts::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .Charts_container {
+    float: left;
+    width: auto;
+    height: 10%;
+    margin-top: 5%;
+    margin-left: 10px;
+    margin-right: 5px;
+  }
+  
+  .Charts .Charts_container .Charts_container::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* .Charts .Charts_container .Charts_container:last-child {
+    margin-right: 0%;
+  } */
+  

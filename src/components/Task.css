@@ -1,0 +1,16 @@
+
+.footerTitle {
+    padding-left: 1rem;
+  }
+  
+  .footerValue {
+    float: right;
+    padding-right: 1rem;
+  }
+
+  .footer {
+    border: 1px solid grey;
+    border-radius: 0.2rem;
+    margin: none;
+  }
+  
